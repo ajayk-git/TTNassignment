@@ -1,0 +1,66 @@
+[33mcommit 571702fc6935b2ec8a7e7e09f663736e65e487f4[m[33m ([m[1;36mHEAD -> [m[1;32mDBMS[m[33m, [m[1;31morigin/DBMS[m[33m)[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Thu Feb 6 22:00:38 2020 +0530
+
+    DBMS dump file is added
+
+[33mcommit 89285ce4b94f4670314a7439fc25d85d5372eebe[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Thu Feb 6 21:48:06 2020 +0530
+
+    this is DBMS assignment.
+
+[33mcommit e5e7863a6ba58b8f48e21c6a77686e73588a5706[m[33m ([m[1;32mmaster[m[33m, [m[1;32mcheckout[m[33m)[m
+Merge: deffacb 8b29deb
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 22:06:22 2020 +0530
+
+    resolved  comflictes
+
+[33mcommit 8b29deb82c2ceb9b5b6bb639ef28e3849a8c8c65[m[33m ([m[1;32mBranch1[m[33m)[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 21:42:37 2020 +0530
+
+    commit at Branch1
+
+[33mcommit deffacb86158ccd13f34b0510e5fbdc4e57cb218[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 21:40:27 2020 +0530
+
+    commit at master branch
+
+[33mcommit 6e35e0503aafe5573d663d6255b09bcb3b2d8a99[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 21:29:37 2020 +0530
+
+    this is branch commit
+
+[33mcommit df3a90ea54e9f98cf91ae02fc09698d1b2b73241[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 20:49:52 2020 +0530
+
+    committing for clone repo
+
+[33mcommit 648c31638485b2e303d7787eed58720200e5fc6c[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 17:53:02 2020 +0530
+
+    this commit is adding file4
+
+[33mcommit 9799ea2884f5425f3dd5ab74ddf72625ce14b0c5[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 17:47:02 2020 +0530
+
+    committing file3
+
+[33mcommit ae6c77c1292a4f4940ed5861cbbbebdec3370b57[m
+Author: TTNthinkpad <ajay.kumar1@tothenew.com>
+Date:   Wed Feb 5 17:42:10 2020 +0530
+
+    committing file1 and file2
+
+[33mcommit cc6059f428643e14c851118e3940e94ccef31ee8[m
+Author: Ajay Kumar <32533548+ajayk-git@users.noreply.github.com>
+Date:   Wed Feb 5 17:12:10 2020 +0530
+
+    Initial commit
