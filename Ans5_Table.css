@@ -1,0 +1,18 @@
+table,th{
+
+    background-color: darkslategrey;
+    color:whitesmoke;
+    padding: 5px;
+    text-align: left;
+    border-collapse : collapse;
+
+}
+
+td {
+    color :darkslategrey;
+    background-color:lavender;
+    text-align: left;
+    padding: 5px;
+    border-collapse : collapse;
+    border-bottom: cadetblue;
+}
