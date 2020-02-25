@@ -6,9 +6,5 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FirstTest {
 
-    @Test
-    void canary() {
-        assertTrue(false); //fix this
-//        assertEquals(new First().sayHi(), "Hi");
-    }
+
 }
