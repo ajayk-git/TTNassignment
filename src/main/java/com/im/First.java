@@ -1,6 +1,7 @@
 package com.im;
 
 import java.lang.reflect.Array;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -15,6 +16,7 @@ public class First {
         First first = new First();
         //System.out.println(first.replaceSubString("This is my main string text", "main", "modified"));
         //System.out.println(first.filterEvenElements(IntStream.of(1,2,3,4,5).boxed().collect(Collectors.toList())));
+        BigDecimal result = first.calculateAverage(new ArrayList<>());
     }
 
     /**
@@ -47,4 +49,24 @@ public class First {
         return list;
     }
 
+    public BigDecimal calculateAverage(List<BigDecimal> values) {
+        if (values == null || values.size() < 1) {
+            throw new RuntimeException("Invalid input");
+        } else {
+            BigDecimal sum = values.stream().reduce(BigDecimal.ZERO, BigDecimal::add);
+            return (sum.divide(new BigDecimal(values.size())));
+        }
+    }
+
+    public Boolean isPallindrome(String origString) {
+        Boolean isPallindrome = false;
+        String reverseString = new StringBuilder(origString).reverse().toString();
+
+        // Check palindrome string
+        if (origString.equals(reverseString)) {
+            isPallindrome = true;
+        }
+        return isPallindrome;
+    }
 }
+
