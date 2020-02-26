@@ -1,15 +1,20 @@
 package com.im;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 public class First {
 
     public static void main(String[] args) {
 
-        /*String mainString = "This is my main string text";
-        String subString = "main";
-        String replacementString = "modified";
-
         First first = new First();
-        System.out.println(first.replaceSubString(mainString, subString, replacementString));*/
+        //System.out.println(first.replaceSubString("This is my main string text", "main", "modified"));
+        //System.out.println(first.filterEvenElements(IntStream.of(1,2,3,4,5).boxed().collect(Collectors.toList())));
     }
 
     /**
@@ -25,6 +30,21 @@ public class First {
         }else {
             return mainString;
         }
+    }
+
+    /**
+     * This method is used to filter even elements from list.
+     * @param list list of integer
+     * @return list
+     */
+    public List<Integer> filterEvenElements(List<Integer> list) {
+        Iterator<Integer> it = list.iterator();
+        while(it.hasNext()) {
+            if(it.next() % 2 == 0) {
+                it.remove();
+            }
+        }
+        return list;
     }
 
 }
