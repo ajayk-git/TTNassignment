@@ -18,6 +18,7 @@ public class Ques6 {
     }
 
     void ques6Show(){
+	sim.calling();
         System.out.println("-----Implementation of constructor injection. We have injected  the  constructor dependency in Ques6 class.-----");
 
     }
